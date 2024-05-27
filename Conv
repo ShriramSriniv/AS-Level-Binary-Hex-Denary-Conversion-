@@ -1,0 +1,60 @@
+def binary_to_decimal(binary):
+    return int(binary, 2)
+
+def decimal_to_binary(decimal):
+    return bin(decimal)[2:]
+
+def binary_to_hexadecimal(binary):
+    decimal_value = binary_to_decimal(binary)
+    return decimal_to_hexadecimal(decimal_value)
+
+def hexadecimal_to_binary(hexadecimal):
+    decimal_value = int(hexadecimal, 16)
+    return decimal_to_binary(decimal_value)
+
+def decimal_to_hexadecimal(decimal):
+    return hex(decimal)[2:]
+
+def hexadecimal_to_decimal(hexadecimal):
+    return int(hexadecimal, 16)
+
+def calculator():
+    while True:
+        print("Binary and Hexadecimal Calculator:")
+        print("1. Binary to Decimal")
+        print("2. Decimal to Binary")
+        print("3. Binary to Hexadecimal")
+        print("4. Hexadecimal to Binary")
+        print("5. Decimal to Hexadecimal")
+        print("6. Hexadecimal to Decimal")
+        print("0. Exit")
+        choice = input("Enter your choice (0-6): ")
+        
+        if choice == "0":
+            break
+        
+        if choice in ["1", "2", "3", "4", "5", "6"]:
+            user_input = input("Enter the value: ")
+            if choice == "1":
+                result = binary_to_decimal(user_input)
+                print(f"Result: {result} (Decimal)")
+            elif choice == "2":
+                result = decimal_to_binary(int(user_input))
+                print(f"Result: {result} (Binary)")
+            elif choice == "3":
+                result = binary_to_hexadecimal(user_input)
+                print(f"Result: {result} (Hexadecimal)")
+            elif choice == "4":
+                result = hexadecimal_to_binary(user_input)
+                print(f"Result: {result} (Binary)")
+            elif choice == "5":
+                result = decimal_to_hexadecimal(int(user_input))
+                print(f"Result: {result} (Hexadecimal)")
+            elif choice == "6":
+                result = hexadecimal_to_decimal(user_input)
+                print(f"Result: {result} (Decimal)")
+        else:
+            print("Invalid choice. Please enter a number between 0 and 6.")
+
+if __name__ == "__main__":
+    calculator()
