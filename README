@@ -1,0 +1,101 @@
+Description:
+
+This Python program is a Binary and Hexadecimal Calculator that allows users to perform conversions between binary, decimal, and hexadecimal number systems. It provides a simple command-line interface for easy interaction.
+
+Features:
+
+Conversion from Binary to Decimal
+Conversion from Decimal to Binary
+Conversion from Binary to Hexadecimal
+Conversion from Hexadecimal to Binary
+Conversion from Decimal to Hexadecimal
+Conversion from Hexadecimal to Decimal
+User-friendly menu-driven interface
+Error handling for invalid user inputs
+Usage:
+
+Clone or download the repository to your local machine.
+Ensure you have Python installed (Python 3.x recommended).
+Open a terminal or command prompt and navigate to the directory containing the program files.
+Run the program by executing the command: python calculator.py.
+Follow the on-screen instructions to choose the desired conversion option and enter the value to be converted.
+View the result displayed on the screen.
+Repeat steps 5-6 for performing additional conversions or enter 0 to exit the program.
+
+SAMPLE Usage 
+Binary and Hexadecimal Calculator:
+1. Binary to Decimal
+2. Decimal to Binary
+3. Binary to Hexadecimal
+4. Hexadecimal to Binary
+5. Decimal to Hexadecimal
+6. Hexadecimal to Decimal
+0. Exit
+Enter your choice (0-6): 1
+Enter the value: 1010
+Result: 10 (Decimal)
+
+Binary and Hexadecimal Calculator:
+1. Binary to Decimal
+2. Decimal to Binary
+3. Binary to Hexadecimal
+4. Hexadecimal to Binary
+5. Decimal to Hexadecimal
+6. Hexadecimal to Decimal
+0. Exit
+Enter your choice (0-6): 0
+
+
+Binary and Hexadecimal Calculator
+
+Description:
+
+This Python program is a Binary and Hexadecimal Calculator that allows users to perform conversions between binary, decimal, and hexadecimal number systems. It provides a simple command-line interface for easy interaction.
+
+Features:
+
+Conversion from Binary to Decimal
+Conversion from Decimal to Binary
+Conversion from Binary to Hexadecimal
+Conversion from Hexadecimal to Binary
+Conversion from Decimal to Hexadecimal
+Conversion from Hexadecimal to Decimal
+User-friendly menu-driven interface
+Error handling for invalid user inputs
+Usage:
+
+Clone or download the repository to your local machine.
+Ensure you have Python installed (Python 3.x recommended).
+Open a terminal or command prompt and navigate to the directory containing the program files.
+Run the program by executing the command: python calculator.py.
+Follow the on-screen instructions to choose the desired conversion option and enter the value to be converted.
+View the result displayed on the screen.
+Repeat steps 5-6 for performing additional conversions or enter 0 to exit the program.
+Example Usage:
+
+vbnet
+Copy code
+Binary and Hexadecimal Calculator:
+1. Binary to Decimal
+2. Decimal to Binary
+3. Binary to Hexadecimal
+4. Hexadecimal to Binary
+5. Decimal to Hexadecimal
+6. Hexadecimal to Decimal
+0. Exit
+Enter your choice (0-6): 1
+Enter the value: 1010
+Result: 10 (Decimal)
+
+Binary and Hexadecimal Calculator:
+1. Binary to Decimal
+2. Decimal to Binary
+3. Binary to Hexadecimal
+4. Hexadecimal to Binary
+5. Decimal to Hexadecimal
+6. Hexadecimal to Decimal
+0. Exit
+Enter your choice (0-6): 0
+Contributing:
+
+Contributions are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
